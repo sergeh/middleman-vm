@@ -100,14 +100,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # end
   config.vm.provision :chef_solo do |chef|
     chef.log_level = :debug
+    chef.cookbooks_path = "cookbooks"
     chef.data_bags_path = "data_bags"
 
-    chef.add_recipe "apt"
-    chef.add_recipe "ruby"
-    chef.add_recipe "git"
-    chef.add_recipe "oh-my-zsh"
-    chef.add_recipe "middleman"
-    chef.add_recipe "project"
+    chef.add_recipe "vagrant_main"
+    chef.add_recipe "vagrant_main::nodejs"
   end
 
   # Enable provisioning with chef server, specifying the chef server URL,
