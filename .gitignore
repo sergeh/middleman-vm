@@ -13,7 +13,7 @@ ehthumbs.db
 # project
 .vagrant
 middleman.log
-src/*
+src/
 
 # Ruby
 *.gem

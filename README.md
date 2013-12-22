@@ -7,9 +7,10 @@ Includes:
 -
 * Git
 * Ruby 1.9.3
-* Nodejs
-* Yeoman
 * Middleman
+* NodeJS
+* Coffee-Script
+* Yeoman
 * Oh my ZSH
 
 Usage:
