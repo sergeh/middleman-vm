@@ -1,0 +1,35 @@
+# OS
+._*
+.Spotlight-V100
+.Trashes
+*~
+*.lock
+*.swp
+.DS_Store
+.DS_Store?
+.Thumbs.db
+ehthumbs.db
+
+# project
+.vagrant
+middleman.log
+
+# Ruby
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
