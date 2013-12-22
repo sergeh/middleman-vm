@@ -101,7 +101,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.provision :chef_solo do |chef|
     chef.log_level = :debug
     chef.cookbooks_path = "cookbooks"
-    chef.data_bags_path = "data_bags"
+  # chef.data_bags_path = "data_bags"
 
     chef.add_recipe "vagrant_main"
     chef.add_recipe "vagrant_main::nodejs"
