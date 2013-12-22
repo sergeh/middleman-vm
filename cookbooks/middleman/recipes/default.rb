@@ -3,7 +3,7 @@ gem_package "middleman" do
   action :install
 end
 
-config = data_bag_item("middleman", "config")
+# config = data_bag_item("middleman", "config")
 
 #initiate the project if it hasn't been created yet
 execute "middleman_init" do
